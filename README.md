@@ -1,5 +1,6 @@
 # moonlock
 It overrides black+gray theme in most browsers
+quick tips: Full screen the browser(F11) for less distraction
 
 You can adjust your foreground in `content.js`
 
