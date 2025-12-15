@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "moonlock",
+  "version": "1.0",
+  "description": "Forces black background and gray text on most pages",
+  "content_scripts": [
+    {
+      "matches": ["meiroudii.githbu.io"],
+      "js": ["content.js"]
+    }
+  ]
+}
