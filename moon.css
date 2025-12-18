@@ -1,0 +1,9 @@
+:root, html, body {
+  background-color: #000 !important;
+  color: #ccc !important;
+}
+
+* {
+  background-color: transparent !important;
+  color: inherit !important;
+}
