@@ -1,12 +1,14 @@
 {
   "manifest_version": 3,
   "name": "moonlock",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Forces black background and gray text on most pages",
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "css": ["moon.css"],
+      "run_at": "document_start"
     }
   ]
 }
