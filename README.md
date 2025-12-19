@@ -14,3 +14,6 @@ Download the repo.
 git clone https://github.com/Meiroudii/moonlock.git
 ```
 Then search guides on how to equip a browser extension.
+
+## NOTES
+The current config of `moon.css`, in certain sites it'll force pages to turn dark, perhaps that's a feature. It works fine in rust book and that's all matters:)
