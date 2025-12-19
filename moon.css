@@ -4,6 +4,10 @@
 }
 
 * {
-  background-color: transparent !important;
+  background-color: #001 !important;
   color: inherit !important;
+}
+
+a, span, ul {
+  color: green !important;
 }
